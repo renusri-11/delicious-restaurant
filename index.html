@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Delicious.com</title>
+</head>
+
+<body>
+
+    <nav class="fixed top-0 left-0 w-full z-50 bg-black/30 text-white backdrop-blur-sm px-10 ">
+
+          
+        <div class="flex items-center justify-between">
+            <div class="flex items-center gap-8">
+                <div class="items-center flex gap-2">
+                    <i class="fa-solid fa-phone text-orange-400"></i>
+                    <span class="text-sm font-serif">98983-45657</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-regular fa-clock text-orange-400"></i>
+                        <span class="text-sm font-serif">Mon-Sun: 11:00 AM - 23:00 PM</span>
+                    </div>
+                
+                
+            </div>
+            <a href="#Booking">
+            <button class="bg-orange-500 text-white font-serif rounded-2xl mx-2 my-1 py-2 mt-2  hover:bg-orange-400 px-5 ">
+                Book a Table
+            </button>
+            </a>
+        </div>
+    <div class="flex items-center justify-between">
+        <div class="mt-2">
+            <span class="text-4xl text-white font-[cursive]">Delicious</span>
+        </div>
+        <ul class="flex space-x-10 font-medium text-md">
+            <a href="#home" class="hover:text-orange-500 cursor-pointer hover:underline " >Home</a>
+            <a href="#about" class="hover:text-orange-500 cursor-pointer hover:underline ">About</a>
+            <a href="#menu" class="hover:text-orange-500 cursor-pointer hover:underline">Menu</a>
+            <a href="#specials" class="hover:text-orange-500 cursor-pointer hover:underline">Specials</a>
+            <a href="#events" class="hover:text-orange-500 cursor-pointer hover:underline ">Events</a>
+            <a href="#gallery" class="hover:text-orange-500 cursor-pointer hover:underline">Gallery</a>
+            <a href="#contact" class="hover:text-orange-500 cursor-pointer hover:underline ">Contact</a>
+              </ul>
+      </div>
+    </nav>
+    <section id="home" class="relative z-20 bg-custom bg-cover bg-center min-h-screen flex items-center justify-center">
+    <div class="text-center items-center ">
+        <h1 class="font-[cursive] text-white mt-40 my-10 text-5xl">
+            Delicious Food, Made With Love</h1>
+        <p class=" text-xl font-serif text-white mt-1">Our kitchen blends modern cooking techniques with bold, exciting flavors to bring
+             you <br>dishes that are both delicious and unique. Whether you're dining in or ordering takeaway,<br> we deliver food that's fresh,
+              flavorful, and made with love.</p>
+              <div class="flex items-center justify-center pointer-events-auto z-30">
+                <a href="#menu">
+              <button class=" text-white border border-orange-400 font-serif cursor-pointer rounded-2xl bg-transparent px-4 mx-3 py-2 mt-4 my-2 hover:bg-orange-400">Our Menu</button></a>
+              <a href="#Booking">
+              <button class=" text-white font-serif border border-orange-400 rounded-2xl bg-transparent px-4 mx-3 mt-4 py-2 my-2 hover:bg-orange-400">Book a Table</button></a>
+             </div>
+    </div>
+    </section>
+  
+    <section id="about" class="py-20 bg-orange-200 h-screen relative">
+        <div class="container mx-5 px-1 lg:px-10 flex flex-col lg:flex-row  items-center gap-10 ">
+        <div class="lg:w-1/2 flex justify-start flex-1 shadow-lg w-[90%]">
+            <img src="image.png" class="rounded-xl shadow-lg " alt="Restaurant"/>
+        </div>
+        <div class="lg:w-1/2 text-left flex-1">
+            <h2 class="text-5xl font-[cursive] leading-tight mb-4 -mt-10 ">About Our Restaurant</h2>
+            <p class="font-serif leading-tight "> We serve delicious food made with premium ingredients. 
+                Enjoy a cozy dining experience with great ambiance.</p>
+                <div class="font-serif mt-2 space-y-2 mt-3">
+                    <p>✔ Freshly prepared dishes using premium ingredients.</p>
+                    <p>✔ Authentic flavors crafted by experienced chefs.</p>
+                    <p>✔ Cozy and comfortable family-friendly ambiance.</p>
+                    <p>✔ Perfect for gatherings, celebrations, and casual dining.</p>
+                    <p>✔ Focused on quality, taste, and exceptional service.</p>
+                  </div>
+        </div>
+        </div>
+        <div class="flex flex-col justify-center py-5  my-6 items-center">
+            <h2 class="font-[cursive] text-3xl">
+                Why Choose our Restaurant
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 mt-8">
+                <div class="bg-orange-400 shadow-lg rounded-xl p-8 text-center  hover:bg-orange-500 hover:shadow-[0_4px_25px_rgba(255,140,0,0.7)] hover:scale-105 transition-all duration-300">
+                
+                    <h3 class="font-serif text-xl font-semibold mb-2">Fresh Ingredients</h3>
+                    <p class="text-sm text-orange-100">We use premium, hand-picked ingredients<br>
+                        to ensure consistent taste & quality.</p>
+                </div>
+                <div class="bg-orange-400 shadow-lg rounded-xl p-8 text-center hover:bg-orange-500 hover:shadow-[0_4px_25px_rgba(255,140,0,0.7)] hover:scale-105 transition-all duration-300">
+                    <h3 class="font-serif text-xl font-semibold mb-2">Expert Chefs</h3>
+                    <p class="text-sm text-orange-100">Our chefs bring authentic flavors <br>with years
+                         of culinary experience.</p>
+                </div>
+                <div class="bg-orange-400 shadow-lg rounded-xl p-8 text-center  hover:bg-orange-500 hover:shadow-[0_4px_25px_rgba(255,140,0,0.7)] hover:scale-105 transition-all duration-300">
+                    <h3 class="font-serif text-xl font-semibold mb-2">Cozy Ambience</h3>
+                    <p class="text-sm text-orange-100">Enjoy a warm, family-friendly environment<br>
+                         perfect for dining & celebrations.</p>
+                         </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="py-20 bg-white ">
+        <div class="container mx-auto px-6 lg:px-20">
+      
+          <h2 class="text-5xl font-[cursive] text-center mb-10">Check Our Tasty Menu</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10  mt-5">
+            <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+              <img src="fish.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">
+              <h3 class="text-lg font-semibold">Apollo Fish</h3>
+              <p class="text-gray-700 text-sm flex-grow">House-special marinated fish</p>
+              <span class="text-orange-500 font-bold mb-6">₹360/-</span>
+            </div>
+            <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+              <img src="chicken1.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">
+              <h3 class="text-lg font-semibold">Chilli Chicken</h3>
+              <p class="text-gray-700 text-sm flex-grow">Spicy Indo-Chinese chicken</p>
+              <span class="text-orange-500 font-bold mb-6">₹300/-</span>
+            </div>
+              <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+              <img src="c2.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">
+              <h3 class="text-lg font-semibold">Chicken Tandoori</h3>
+              <p class="text-gray-700 text-sm flex-grow">Chargrilled marinated chicken</p>
+              <span class="text-orange-500 font-bold mb-6">₹320/-</span>
+            </div>
+              <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+              <img src="corn.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                <h3 class="text-lg font-semibold">Crispy Corn</h3>
+                <p class="text-gray-700 text-sm flex-grow">Crispy golden corn kernels</p>
+                <span class="text-orange-500 font-bold mb-6">₹220/-</span>
+                </div>
+                <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+                 <img src="B1.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                    <h3 class="text-lg font-semibold">Chicken Biryani</h3>
+                    <p class="text-gray-700 text-sm flex-grow">Hyderabadi Dum Biryani</p>
+                   <span class="text-orange-500 font-bold mb-6">₹320/-</span>
+                    </div>
+             <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+                <img src="B2.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                  <h3 class="text-lg font-semibold">Mutton Biryani</h3>
+                 <p class="text-gray-700 text-sm flex-grow">Slow cooked aromatic rice</p>
+                   <span class="text-orange-500 font-bold mb-6">₹350/-</span>
+           </div>
+           <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+            <img src="b4.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                 <h3 class="text-lg font-semibold">Fish Biryani</h3>
+               <p class="text-gray-700 text-sm flex-grow">Marinated fish with aromatic basmati rice</p>
+                 <span class="text-orange-500 font-bold mb-6">₹350/-</span>
+                </div>
+             <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+                <img src="B3.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                     <h3 class="text-lg font-semibold">Veg Dum Biryani</h3>
+                   <p class="text-gray-700 text-sm flex-grow">Vegetable Basmathi Biryani</p>
+                     <span class="text-orange-500 font-bold mb-6">₹280/-</span>
+                    </div>
+                <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+                    <img src="d1.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                      <h3 class="text-lg font-semibold">Tiramisu</h3>
+                        <p class="text-gray-700 text-sm flex-grow">Coffee-flavored Italian dessert</p>
+                      <span class="text-orange-500 font-bold mb-6">₹250/-</span>
+                        </div>
+              <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+            <img src="d2.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+             <h3 class="text-lg font-semibold">Apricot Delight</h3>
+                  <p class="text-gray-700 text-sm flex-grow">Creamy apricot layered dessert</p>
+                <span class="text-orange-500 font-bold mb-6">₹220/-</span>
+                    </div>
+                <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+            <img src="d3.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">
+                <h3 class="text-lg font-semibold">Crispy Ice-Cream</h3>
+                    <p class="text-gray-700 text-sm flex-grow">Crisp shell & cold ice cream</p>
+                    <span class="text-orange-500 font-bold mb-6">₹180/-</span>
+                    </div>
+                <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+            <img src="A1.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                <h3 class="text-lg font-semibold">vanilla Shake</h3>
+                    <p class="text-gray-700 text-sm flex-grow">Cold & creamy vanilla blend</p>
+                    <span class="text-orange-500 font-bold mb-6">₹150/-</span>
+          </div>
+          <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+            <img src="A2.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                <h3 class="text-lg font-semibold">Oreo Shake</h3>
+                    <p class="text-gray-700 text-sm flex-grow">Blended cookies with milk</p>
+                    <span class="text-orange-500 font-bold mb-6">₹200/-</span>
+          </div>
+          <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+            <img src="A5.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                <h3 class="text-lg font-semibold">Margarita Lemonade</h3>
+                    <p class="text-gray-700 text-sm flex-grow">Zesty Chilled Drink</p>
+                    <span class="text-orange-500 font-bold mb-6">₹80/-</span>
+          </div>
+          <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+            <img src="A4.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                <h3 class="text-lg font-semibold">Coffee</h3>
+                    <p class="text-gray-700 text-sm flex-grow">Hot Brewed Coffee</p>
+                    <span class="text-orange-500 font-bold mb-6">₹30/-</span>
+          </div>
+          <div class="bg-orange-100 rounded-lg shadow-lg p-4 h-72 flex flex-col hover:scale-105 transition-transform duration-300">
+            <img src="A3.png" alt="Dish" class=" h-32 object-cover rounded-md mb-3">       
+                <h3 class="text-lg font-semibold">Tea</h3>
+                    <p class="text-gray-700 text-sm flex-grow">Classic Hot Tea</p>
+                    <span class="text-orange-500 font-bold mb-6">₹25/-</span>
+
+          </div>
+          </div>
+      </section>
+      <section id="specials" class="py-24 bg-orange-50">
+        <div class="container mx-auto px-6 lg:px-20">
+      
+          <h2 class="text-5xl font-[cursive] text-center">Chef's Specials</h2>
+          <div class="w-24 h-[3px] bg-orange-500 mx-auto mt-4 mb-6 rounded"></div>
+          <span class="text-xl block text-center text-orange-500 mb-16 font-serif">Taste the best from our kitchen</span>
+      
+         
+          <div class="flex flex-col lg:flex-row items-center gap-10 mb-20">
+            <img src="s3.png" class="w-80 h-64 object-cover rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300">
+            
+            <div>
+              <div class="flex items-center gap-3 mb-2">
+                <span class="bg-orange-100 text-orange-700 text-xs px-2 py-1 rounded-full">Chef's Pick</span>
+                <span class="text-yellow-500 text-sm">★★★★★</span>
+                <span class="text-gray-500 text-xs">(248 reviews)</span>
+              </div>
+      
+              <h3 class="text-3xl font-semibold">Grilled Chicken Platter</h3>
+              <p class="text-gray-600 mt-3 mb-3 leading-relaxed">
+                A curated assortment of our bestselling chicken cuts <br>served with signature dips,
+                seasoned fries, and fresh <br> greens.
+              </p>
+              <span class="text-2xl text-orange-600 font-bold block mb-1">₹1100/-</span>
+              <span class="text-xs text-gray-400">Feeds 3-4</span>
+            </div>
+          </div>
+      
+        
+          <div class="flex flex-col lg:flex-row-reverse items-center gap-10 mb-20">
+            <img src="s2.png" class="w-80 h-64 object-cover rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300">
+            
+            <div>
+              <div class="flex items-center gap-3 mb-2">
+                <span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full">Seafood Special</span>
+                <span class="text-yellow-500 text-sm">★★★★☆</span>
+                <span class="text-gray-500 text-xs">(184 reviews)</span>
+              </div>
+      
+              <h3 class="text-3xl font-semibold">Tandoori Fish</h3>
+              <p class="text-gray-600 mt-3 mb-3 leading-relaxed">
+                Fresh fish fillet marinated with Indian spices, grilled in<br> clay oven
+                and finished with lemon butter.
+              </p>
+              <span class="text-2xl text-orange-600 font-bold block mb-1">₹650/-</span>
+              <span class="text-xs text-gray-400">High Protein</span>
+            </div>
+          </div>
+      
+          <div class="flex justify-center">
+            <a href="#menu">
+            <button class="bg-orange-500 hover:bg-orange-300 text-white px-6 py-3 rounded-full shadow-md">
+              View Full Menu
+            </button>
+            </a>
+          </div>
+      
+        </div>
+      </section>
+      
+    
+<div class="text-center mt-10 mb-6">
+  <h2 class="text-5xl font-[cursive]">Upcoming Events</h2>
+  <div class="w-24 h-[3px] bg-orange-500 mx-auto mt-3 rounded"></div>
+  <span class="text-xl block text-orange-500 font-serif font-extralight">
+    Join us for memorable experiences
+  </span>
+</div>
+<section id="events" class="bg-renu bg-cover rounded-xl overflow-hidden relative bg-center mx-10 my-10 mt-14 h-[70vh]"> 
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
+  <div class="relative z-10 flex gap-10 h-full px-10 snap-x snap-mandatory scroll-smooth overflow-x-auto">
+    <div class="snap-center flex items-center gap-10 min-w-full">
+      <img src="event3.png" class="w-[500px] h-[380px] mx-10 rounded-lg shadow-xl object-cover">
+      <div class="text-white max-w-lg">
+        <h3 class="text-4xl font-[cursive] mb-5">Birthday Parties</h3>
+        <p class="text-2xl font-semibold mb-4">₹6000-7000</p>
+        <p class="opacity-90 mb-3">Make your birthday celebrations unforgettable with our curated party experiences.</p>
+        <p class="opacity-90 mb-3">✔ Gourmet menus, stylish decor, and effortless coordination</p>
+        <p class="opacity-90 mb-3">✔ Exclusive setups for kids, teens, and adults</p>
+        <p class="opacity-90 mb-3">✔ Fun-filled activities and entertainment options</p>
+        <p class="opacity-90 mb-3">✔ Customizable themes to match your style</p>
+        <p class="opacity-90 mb-3">✔ You enjoy — we handle the rest</p>
+      </div>
+    </div>
+    <div class="snap-center flex items-center gap-10 min-w-full">
+      <img src="event2.png" class="w-[500px] h-[380px] rounded-lg mx-10 shadow-xl object-cover">
+      <div class="text-white max-w-lg">
+        <h3 class="text-4xl font-[cursive] mb-5">Wedding Parties</h3>
+        <p class="text-2xl font-semibold mb-4">₹8000-12000</p>
+        <p class="opacity-90 mb-3">Experience a beautifully curated wedding celebration with premium decor and seamless coordination.</p>
+        <p class="opacity-90 mb-3">✔ Theme decor & gourmet menu options</p>
+        <p class="opacity-90 mb-3">✔ Dedicated event support</p>
+        <p class="opacity-90 mb-3">✔ Romantic and memorable ambience</p>
+        <p class="opacity-90 mb-3">✔ Customizable packages to suit your vision</p>
+        <p class="opacity-90 mb-3">✔ Stress-free planning for your special day</p>
+      </div>
+    </div>
+    <div class="snap-center flex items-center gap-10 min-w-full">
+      <img src="event1.png" class="w-[500px] h-[380px] rounded-lg mx-10 shadow-xl object-cover">
+      <div class="text-white max-w-lg">
+        <h3 class="text-4xl font-[cursive] mb-5">Corporate Events</h3>
+        <p class="text-2xl font-semibold mb-4">₹6000-9000</p>
+        <p class="opacity-90 mb-3">Make your corporate gatherings productive and memorable with refined ambience and expert planning.</p>
+        <p class="opacity-90 mb-3">✔ Productive and polished event experience.</p>
+        <p class="opacity-90 mb-3">✔ Comfortable seating and premium ambience.</p>
+        <p class="opacity-90 mb-3">✔ Transparent pricing with no hidden charges.</p>
+        <p class="opacity-90 mb-3">✔ Customizable setups to suit your needs.</p>
+        <p class="opacity-90 mb-3">✔ Professional event coordination.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="Booking" class="py-10 bg-orange-100">
+  <div class="container mx-auto px-2 lg:px-6 text-center">
+    <h2 class="text-4xl font-[cursive] mb-2">Reserve Your Table Now!</h2>
+    <div class="w-52 h-[3px] bg-orange-500 mx-auto mt-0 mb-8 rounded"></div>
+    <p class="font-serif mb-6 text-2xl text-orange-500">Experience the best dining with us.</p>
+    <div class="my-10 mx-auto w-full max-w-[1400px] bg-orange-200 rounded-lg shadow-lg py-20 relative flex gap-10 overflow-hidden">
+      <img src="aa.png" class="absolute inset-0 w-full h-full object-cover opacity-40 blur-sm pointer-events-none">
+      <div class="relative z-10 flex justify-center items-center">
+        <img src="hi.png" class="w-96 h-96 mx-5 rounded-lg object-cover">
+      </div>
+      <form class="relative z-10 space-y-5 w-[50%] text-left">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10">
+          <input type="text" placeholder="Your Name" class="px-5 py-3 border border-gray-300 bg-white focus:ring-orange-400 rounded-lg">
+          <input type="email" placeholder="Your Email" class="px-5 py-3 border border-gray-300 bg-white focus:ring-orange-400 rounded-lg">
+          <input type="tel" placeholder="Your Phone" class="px-5 py-3 border border-gray-300 bg-white focus:ring-orange-400 rounded-lg">
+          <input type="date" class="px-5 py-3 border border-gray-300 bg-white focus:ring-orange-400 rounded-lg">
+          <input type="time" class="px-5 py-3 border border-gray-300 bg-white focus:ring-orange-400 rounded-lg">
+          <input type="number" placeholder="Guests" class="px-5 py-3 border border-gray-300 bg-white focus:ring-orange-400 rounded-lg">
+        </div>
+        <textarea rows="4" placeholder="Message" class="w-full px-5 py-4 border border-gray-300 bg-white focus:ring-orange-400 rounded-lg"></textarea>
+        <div class="flex justify-center">
+            <button type="submit" class="bg-orange-500 hover:bg-orange-400 text-white px-6 py-3 shadow-md rounded-sm">
+              Reserve Now
+            </button>          
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<section id="gallery" class="py-20 bg-white ">
+    <div class="container max-w-[5000px] mx-auto px-6 lg:px-20">
+  
+      <h2 class="text-5xl font-[cursive] text-center mb-2">Gallery</h2>
+      <div class="w-24 h-[3px] bg-orange-500 mx-auto mt-0 mb-10 rounded"></div>
+      <span class="text-2xl block text-center text-orange-500 mb-10  font-serif">A glimpse into our culinary world</span>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4  mt-5">
+        <img src="g1.png" alt="Gallery Image" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="g2.png" alt="Gallery Image" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="g3.png" alt="Gallery Image" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="g4.png" alt="Gallery Image" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="g5.png" alt="Gallery Image" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="g6.png" alt="Gallery Image" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="g7.png" alt="Gallery Image" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="g8.png" alt="Gallery Image" class="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+      </div>
+      </div>
+  </section>
+  <section id="contact" class="py-20 bg-orange-50">
+    <div class="container mx-auto px-6 lg:px-20">
+      <h2 class="text-5xl font-[cursive] text-center mb-2">Contact Us</h2>
+      <div class="w-24 h-[3px] bg-orange-500 mx-auto mb-8 rounded"></div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div class="space-y-5 text-left font-serif text-gray-700">
+          <h3 class="text-2xl font-semibold text-orange-600">Get in Touch</h3>
+          <p><i class="fa-solid fa-location-dot text-orange-500 mr-2"></i>123 Main Street, Hyderabad, India</p>
+            <p><i class="fa-solid fa-phone text-orange-500 mr-2"></i> +91 9898345657</p>
+          <p><i class="fa-solid fa-envelope text-orange-500 mr-2"></i>contact@delicious.com</p>
+          <p><i class="fa-solid fa-clock text-orange-500 mr-2"></i>Mon-Sun: 11:00 AM-11:00 PM</p>  
+          <div class="flex gap-4 text-2xl text-orange-600 mt-4">
+            <i class="fa-brands fa-facebook hover:text-orange-400 cursor-pointer"></i>
+            <i class="fa-brands fa-instagram hover:text-orange-400 cursor-pointer"></i>
+            <i class="fa-brands fa-twitter hover:text-orange-400 cursor-pointer"></i>
+          </div>
+        </div>
+        <form class="space-y-4">
+          <input type="text" placeholder="Your Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-orange-400">
+          <input type="email" placeholder="Your Email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-orange-400">
+          <textarea rows="4" placeholder="Message" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-orange-400"></textarea>
+          <button type="submit" class="bg-orange-500 hover:bg-orange-400 text-white px-6 py-3 rounded-lg shadow-md">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <a href="#home" class="fixed bottom-6 right-6 bg-orange-500 hover:bg-orange-400 text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg text-xl cursor-pointer">
+    ↑
+  </a>
+  
+  <footer class="bg-black text-white py-14">
+    <div class="container mx-auto px-6 lg:px-20 grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div>
+        <h3 class="text-4xl font-[cursive] text-orange-400 mb-3">Delicious</h3>
+        <p class="text-gray-300 font-serif leading-relaxed">
+          Serving premium food with warmth and passion.
+          Taste the difference in every bite.
+        </p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-3 text-orange-500">Quick Links</h4>
+        <ul class="space-y-2 font-serif text-gray-300">
+          <li><a href="#home" class="hover:text-orange-400">Home</a></li>
+          <li><a href="#about" class="hover:text-orange-400">About</a></li>
+          <li><a href="#menu" class="hover:text-orange-400">Menu</a></li>
+          <li><a href="#events" class="hover:text-orange-400">Events</a></li>
+          <li><a href="#contact" class="hover:text-orange-400">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-3 text-orange-500">Contact</h4>
+        <ul class="space-y-2 font-serif text-gray-300">
+          <li><i class="fa-solid fa-location-dot text-orange-400 mr-2"></i> Hyderabad, India</li>
+          <li><i class="fa-solid fa-phone text-orange-400 mr-2"></i> +91 98765 43210</li>
+          <li><i class="fa-solid fa-envelope text-orange-400 mr-2"></i> delicious@gmail.com</li>
+          <li><i class="fa-solid fa-clock text-orange-400 mr-2"></i> 11AM – 11PM</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-3 text-orange-500">Follow Us</h4>
+        <div class="flex items-center space-x-4 text-2xl text-orange-500">
+          <a href="#https://instagram.com/renusri_11" target="_blank"><i class="fa-brands fa-instagram hover:text-orange-300"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook hover:text-orange-300"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-twitter hover:text-orange-300"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-gray-400 text-sm mt-10 font-serif border-t border-gray-700 pt-4">
+      © 2026 Delicious Restaurant. All Rights Reserved.
+    </div>
+  </footer>
+</body>
+</html>
