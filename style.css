@@ -1,0 +1,27 @@
+
+.bg-custom {
+  background-image: url('./renuuu.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-full {
+  min-height: 100vh; 
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
+}
+.bg-renu{
+  background-image: url('./bg3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#home {
+  scroll-margin-top: 180px;
+  padding-top: 120px;
+  min-height: 100vh;
+}
