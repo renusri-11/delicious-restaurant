@@ -1,6 +1,6 @@
 
 .bg-custom {
-  background-image: url('.images/renuuu.jpg');
+  background-image: url('images/renuuu.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ html {
   scroll-padding-top: 150px;
 }
 .bg-renu{
-  background-image: url('.images/bg3.png');
+  background-image: url('images/bg3.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
